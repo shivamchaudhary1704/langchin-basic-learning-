@@ -3,7 +3,7 @@ from langchain_community.tools import WikipediaQueryRun
 from langchain_community.utilities import WikipediaAPIWrapper
 from langchain.agents import initialize_agent, Tool, AgentType
 
-api_key = "AIzaSyBeV8R5WfjCkpeCtQrOSJIY03hH6NTbgQc"
+api_key = #write your api key here(GEMINI)
 llm = ChatGoogleGenerativeAI(
     model="gemini-1.5-flash-latest",
     temperature=0.7,
@@ -50,3 +50,4 @@ Do NOT include source URLs.
 if __name__ == "__main__":
     topic = input("Enter the technology to research: ")
     research_technology(topic)
+
