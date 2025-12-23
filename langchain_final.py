@@ -1,4 +1,4 @@
-
+import pandas as pd
 from pathlib import Path
 import re
 import datetime
@@ -74,3 +74,4 @@ if __name__ == "__main__":
     topic_input="weather in noida"
     # topic_input = input("Enter your research topic: ")
     generate_report(topic_input)
+
