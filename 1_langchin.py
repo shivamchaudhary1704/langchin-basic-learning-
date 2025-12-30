@@ -2,7 +2,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
+load_dotenv()#load
 gemini_api_key = os.getenv("GEMINI_API_KEY")
 
 llm = ChatGoogleGenerativeAI(
@@ -13,3 +13,4 @@ llm = ChatGoogleGenerativeAI(
 
 response = llm.invoke("square of 7")
 print(response.content)
+
