@@ -2,7 +2,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from dotenv import load_dotenv
 import os
-
+# main part
 load_dotenv()
 gemini_api_key = os.getenv("GEMINI_API_KEY")
 
@@ -19,3 +19,4 @@ messages =[
 ]
 response = llm.invoke(messages)
 print(response.content)
+
