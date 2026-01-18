@@ -3,7 +3,7 @@ from langchain_community.llms import Ollama
 from langchain.chains import LLMChain
 from docx import Document
 import os
-#all done
+
 
 llm = Ollama(model="llama3")
 
@@ -43,4 +43,5 @@ file_path = os.path.join(current_dir, "output.docx")
 doc.save(file_path)
 
 print(f"Word file created at: {file_path}")
+
 
