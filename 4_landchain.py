@@ -11,7 +11,7 @@ gemini_api_key = os.getenv("GEMINI_API_KEY")
 PROJECT_ID="try-1-185e3"
 SESSION_ID="user_new_setion"
 COLLECTION_NAME="chat_history"
-
+#main
 client=firestore.Client(project=PROJECT_ID)
 
 
@@ -55,3 +55,4 @@ while True:
 
 
 print("Chat Ended")
+
