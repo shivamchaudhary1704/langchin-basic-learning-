@@ -3,7 +3,7 @@ from google.cloud import firestore
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from langchain_google_firestore import FirestoreChatMessageHistory
 from dotenv import load_dotenv
-import os
+import os#os need more prac
 
 load_dotenv()
 gemini_api_key = os.getenv("GEMINI_API_KEY")
@@ -52,5 +52,6 @@ while True:
     
     # Print the AI's response
     print(f"AI: {response.content}")
+
 
 print("Chat Ended")
