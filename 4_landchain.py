@@ -7,7 +7,7 @@ import os#os need more prac
 
 load_dotenv()
 gemini_api_key = os.getenv("GEMINI_API_KEY")
-
+#env not uploaded
 PROJECT_ID="try-1-185e3"
 SESSION_ID="user_new_setion"
 COLLECTION_NAME="chat_history"
@@ -55,4 +55,5 @@ while True:
 
 
 print("Chat Ended")
+
 
